@@ -6,7 +6,7 @@ Generate a request body with this command:
 php artisan openapi:make-requestbody StoreUser
 ```
 
-You can refer to a schema by implementing `use Vyuldashev\LaravelOpenApi\Contracts\Reusable` on the schema and adding it to the request body like so:
+You can refer to a schema by implementing `use NovaEdge\LaravelOpenApi\Contracts\Reusable` on the schema and adding it to the request body like so:
 
 ```php
 class UserCreateRequestBody extends RequestBodyFactory
@@ -25,7 +25,7 @@ class UserCreateRequestBody extends RequestBodyFactory
 Use a request body in your controller like this:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller
 {

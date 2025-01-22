@@ -1,10 +1,10 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Paths\Operation;
+namespace NovaEdge\LaravelOpenApi\Builders\Paths\Operation;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\SecurityRequirement;
-use Vyuldashev\LaravelOpenApi\Attributes\Operation as OperationAttribute;
-use Vyuldashev\LaravelOpenApi\RouteInformation;
+use NovaEdge\LaravelOpenApi\Attributes\Operation as OperationAttribute;
+use NovaEdge\LaravelOpenApi\RouteInformation;
 
 class SecurityBuilder
 {

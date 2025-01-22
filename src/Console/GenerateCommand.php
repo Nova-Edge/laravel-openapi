@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\LaravelOpenApi\Console;
+namespace NovaEdge\LaravelOpenApi\Console;
 
 use Illuminate\Console\Command;
-use Vyuldashev\LaravelOpenApi\Generator;
+use NovaEdge\LaravelOpenApi\Generator;
 
 class GenerateCommand extends Command
 {

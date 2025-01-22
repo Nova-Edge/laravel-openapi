@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Tests;
+namespace NovaEdge\LaravelOpenApi\Tests;
 
 use Examples\Petstore\PetController;
 use Illuminate\Support\Facades\Route;

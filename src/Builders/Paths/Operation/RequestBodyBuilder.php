@@ -1,12 +1,12 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Paths\Operation;
+namespace NovaEdge\LaravelOpenApi\Builders\Paths\Operation;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\RequestBody;
-use Vyuldashev\LaravelOpenApi\Attributes\RequestBody as RequestBodyAttribute;
-use Vyuldashev\LaravelOpenApi\Contracts\Reusable;
-use Vyuldashev\LaravelOpenApi\Factories\RequestBodyFactory;
-use Vyuldashev\LaravelOpenApi\RouteInformation;
+use NovaEdge\LaravelOpenApi\Attributes\RequestBody as RequestBodyAttribute;
+use NovaEdge\LaravelOpenApi\Contracts\Reusable;
+use NovaEdge\LaravelOpenApi\Factories\RequestBodyFactory;
+use NovaEdge\LaravelOpenApi\RouteInformation;
 
 class RequestBodyBuilder
 {

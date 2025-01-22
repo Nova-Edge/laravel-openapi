@@ -6,7 +6,7 @@ In order to add route, you need to add `PathItem` attribute to controller class 
 This attribute will indicate that route which has `UserController@store` definition should be included in `paths`.
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 #[OpenApi\PathItem]
 class UserController extends Controller
@@ -74,7 +74,7 @@ To use tags, first set them up in `config/openapi.php`:
 Then add them using in the `Operation` attribute on your controller:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller
 {
@@ -100,7 +100,7 @@ When a controller method accepts multiple methods, by default only the first is 
 To override which verb or method should be used on a particular operation, add the `method` parameter the `Operation` attribute on your controller:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller
 {

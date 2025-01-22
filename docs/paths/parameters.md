@@ -1,6 +1,6 @@
 # Parameters
 
-In order to add path or query parameters to route you need to create `Parameters` object factory. 
+In order to add path or query parameters to route you need to create `Parameters` object factory.
 
 You may generate a new one using Artisan command:
 
@@ -35,16 +35,16 @@ class ListUsersParameters extends ParametersFactory
 Finally, add `Parameters` attribute below `Operation` attribute:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
-class UserController extends Controller 
+class UserController extends Controller
 {
     /**
      * List users.
      */
     #[OpenApi\Operation]
     #[OpenApi\Parameters(factory: ListUsersParameters::class)]
-    public function index() 
+    public function index()
     {
         //
     }
@@ -77,19 +77,19 @@ The following definition will be generated:
 ```
 
 ## Route Parameters
- 
-Let's assume we have route `Route::get('/users/{user}', 'UserController@show')`. 
+
+Let's assume we have route `Route::get('/users/{user}', 'UserController@show')`.
 
 There is no need to add `Parameters` attribute as route parameters are automatically added to parameters definition:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
-class UserController extends Controller 
+class UserController extends Controller
 {
     /**
      * Show user.
-     * 
+     *
      * @param User $user User ID
      */
      #[OpenApi\Operation]

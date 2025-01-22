@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Contracts;
+namespace NovaEdge\LaravelOpenApi\Contracts;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Components;
 

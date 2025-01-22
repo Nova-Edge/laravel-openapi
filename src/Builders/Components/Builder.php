@@ -1,12 +1,12 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Components;
+namespace NovaEdge\LaravelOpenApi\Builders\Components;
 
 use Illuminate\Support\Collection;
 use ReflectionClass;
-use Vyuldashev\LaravelOpenApi\Attributes\Collection as CollectionAttribute;
-use Vyuldashev\LaravelOpenApi\ClassMapGenerator;
-use Vyuldashev\LaravelOpenApi\Generator;
+use NovaEdge\LaravelOpenApi\Attributes\Collection as CollectionAttribute;
+use NovaEdge\LaravelOpenApi\ClassMapGenerator;
+use NovaEdge\LaravelOpenApi\Generator;
 
 abstract class Builder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Attributes;
+namespace NovaEdge\LaravelOpenApi\Attributes;
 
 use Attribute;
 

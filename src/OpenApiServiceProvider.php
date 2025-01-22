@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\LaravelOpenApi;
+namespace NovaEdge\LaravelOpenApi;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
-use Vyuldashev\LaravelOpenApi\Builders\Components\CallbacksBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\RequestBodiesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\ResponsesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\SchemasBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\SecuritySchemesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\ComponentsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\InfoBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\PathsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\ServersBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\TagsBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\CallbacksBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\RequestBodiesBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\ResponsesBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\SchemasBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\SecuritySchemesBuilder;
+use NovaEdge\LaravelOpenApi\Builders\ComponentsBuilder;
+use NovaEdge\LaravelOpenApi\Builders\InfoBuilder;
+use NovaEdge\LaravelOpenApi\Builders\PathsBuilder;
+use NovaEdge\LaravelOpenApi\Builders\ServersBuilder;
+use NovaEdge\LaravelOpenApi\Builders\TagsBuilder;
 
 class OpenApiServiceProvider extends ServiceProvider
 {

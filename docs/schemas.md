@@ -10,7 +10,7 @@ If you would like to generate a schema from model, you may use the `--model` or 
 php artisan openapi:make-schema User -m User
 ```
 
-To use a schema in a response, use and implement `Vyuldashev\LaravelOpenApi\Contracts\Reusable` in your schema, and do something like this in your response:
+To use a schema in a response, use and implement `NovaEdge\LaravelOpenApi\Contracts\Reusable` in your schema, and do something like this in your response:
 
 ```php
 use App\OpenApi\Schemas\UserSchema;

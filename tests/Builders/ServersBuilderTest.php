@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\LaravelOpenApi\Tests\Builders;
+namespace NovaEdge\LaravelOpenApi\Tests\Builders;
 
-use Vyuldashev\LaravelOpenApi\Builders\ServersBuilder;
-use Vyuldashev\LaravelOpenApi\Tests\TestCase;
+use NovaEdge\LaravelOpenApi\Builders\ServersBuilder;
+use NovaEdge\LaravelOpenApi\Tests\TestCase;
 
 class ServersBuilderTest extends TestCase
 {

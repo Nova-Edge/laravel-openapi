@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\RequestBody;
-use Vyuldashev\LaravelOpenApi\Factories\RequestBodyFactory;
+use NovaEdge\LaravelOpenApi\Factories\RequestBodyFactory;
 
 class DummyClass extends RequestBodyFactory
 {

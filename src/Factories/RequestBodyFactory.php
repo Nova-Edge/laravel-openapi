@@ -1,9 +1,9 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Factories;
+namespace NovaEdge\LaravelOpenApi\Factories;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\RequestBody;
-use Vyuldashev\LaravelOpenApi\Concerns\Referencable;
+use NovaEdge\LaravelOpenApi\Concerns\Referencable;
 
 abstract class RequestBodyFactory
 {

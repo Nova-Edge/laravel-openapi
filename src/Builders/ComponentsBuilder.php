@@ -1,14 +1,14 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders;
+namespace NovaEdge\LaravelOpenApi\Builders;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Components;
-use Vyuldashev\LaravelOpenApi\Builders\Components\CallbacksBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\RequestBodiesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\ResponsesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\SchemasBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Components\SecuritySchemesBuilder;
-use Vyuldashev\LaravelOpenApi\Generator;
+use NovaEdge\LaravelOpenApi\Builders\Components\CallbacksBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\RequestBodiesBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\ResponsesBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\SchemasBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Components\SecuritySchemesBuilder;
+use NovaEdge\LaravelOpenApi\Generator;
 
 class ComponentsBuilder
 {

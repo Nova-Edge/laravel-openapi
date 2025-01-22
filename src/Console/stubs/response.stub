@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Response;
-use Vyuldashev\LaravelOpenApi\Factories\ResponseFactory;
+use NovaEdge\LaravelOpenApi\Factories\ResponseFactory;
 
 class DummyClass extends ResponseFactory
 {

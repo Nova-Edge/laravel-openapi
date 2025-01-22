@@ -1,14 +1,14 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi;
+namespace NovaEdge\LaravelOpenApi;
 
 use GoldSpecDigital\ObjectOrientedOAS\OpenApi;
 use Illuminate\Support\Arr;
-use Vyuldashev\LaravelOpenApi\Builders\ComponentsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\InfoBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\PathsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\ServersBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\TagsBuilder;
+use NovaEdge\LaravelOpenApi\Builders\ComponentsBuilder;
+use NovaEdge\LaravelOpenApi\Builders\InfoBuilder;
+use NovaEdge\LaravelOpenApi\Builders\PathsBuilder;
+use NovaEdge\LaravelOpenApi\Builders\ServersBuilder;
+use NovaEdge\LaravelOpenApi\Builders\TagsBuilder;
 
 class Generator
 {

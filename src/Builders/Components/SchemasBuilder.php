@@ -1,10 +1,10 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Components;
+namespace NovaEdge\LaravelOpenApi\Builders\Components;
 
-use Vyuldashev\LaravelOpenApi\Contracts\Reusable;
-use Vyuldashev\LaravelOpenApi\Factories\SchemaFactory;
-use Vyuldashev\LaravelOpenApi\Generator;
+use NovaEdge\LaravelOpenApi\Contracts\Reusable;
+use NovaEdge\LaravelOpenApi\Factories\SchemaFactory;
+use NovaEdge\LaravelOpenApi\Generator;
 
 class SchemasBuilder extends Builder
 {

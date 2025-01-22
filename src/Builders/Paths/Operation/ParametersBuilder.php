@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Paths\Operation;
+namespace NovaEdge\LaravelOpenApi\Builders\Paths\Operation;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Parameter;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Schema;
@@ -8,10 +8,10 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use phpDocumentor\Reflection\DocBlock\Tags\Param;
 use ReflectionParameter;
-use Vyuldashev\LaravelOpenApi\Attributes\Parameters;
-use Vyuldashev\LaravelOpenApi\Factories\ParametersFactory;
-use Vyuldashev\LaravelOpenApi\RouteInformation;
-use Vyuldashev\LaravelOpenApi\SchemaHelpers;
+use NovaEdge\LaravelOpenApi\Attributes\Parameters;
+use NovaEdge\LaravelOpenApi\Factories\ParametersFactory;
+use NovaEdge\LaravelOpenApi\RouteInformation;
+use NovaEdge\LaravelOpenApi\SchemaHelpers;
 
 class ParametersBuilder
 {

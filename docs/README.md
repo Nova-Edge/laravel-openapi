@@ -13,14 +13,14 @@ The service provider will automatically get registered. Or you may manually add 
 ```bash
 'providers' => [
     // ...
-    Vyuldashev\LaravelOpenApi\OpenApiServiceProvider::class,
+    NovaEdge\LaravelOpenApi\OpenApiServiceProvider::class,
 ];
 ```
 
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --provider="Vyuldashev\LaravelOpenApi\OpenApiServiceProvider" --tag="openapi-config"
+php artisan vendor:publish --provider="NovaEdge\LaravelOpenApi\OpenApiServiceProvider" --tag="openapi-config"
 ```
 
 ## Additional information

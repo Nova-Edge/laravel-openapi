@@ -1,10 +1,10 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Components;
+namespace NovaEdge\LaravelOpenApi\Builders\Components;
 
-use Vyuldashev\LaravelOpenApi\Contracts\Reusable;
-use Vyuldashev\LaravelOpenApi\Factories\CallbackFactory;
-use Vyuldashev\LaravelOpenApi\Generator;
+use NovaEdge\LaravelOpenApi\Contracts\Reusable;
+use NovaEdge\LaravelOpenApi\Factories\CallbackFactory;
+use NovaEdge\LaravelOpenApi\Generator;
 
 class CallbacksBuilder extends Builder
 {

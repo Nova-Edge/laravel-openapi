@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\LaravelOpenApi\Tests\Builders;
+namespace NovaEdge\LaravelOpenApi\Tests\Builders;
 
-use Vyuldashev\LaravelOpenApi\Builders\InfoBuilder;
-use Vyuldashev\LaravelOpenApi\Tests\TestCase;
+use NovaEdge\LaravelOpenApi\Builders\InfoBuilder;
+use NovaEdge\LaravelOpenApi\Tests\TestCase;
 
 class InfoBuilderTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Attributes;
+namespace NovaEdge\LaravelOpenApi\Attributes;
 
 use Attribute;
 use InvalidArgumentException;
-use Vyuldashev\LaravelOpenApi\Factories\SecuritySchemeFactory;
+use NovaEdge\LaravelOpenApi\Factories\SecuritySchemeFactory;
 
 #[Attribute(Attribute::TARGET_METHOD)]
 class Operation
@@ -23,7 +23,7 @@ class Operation
     /**
      * @param  string|null  $id
      * @param  array  $tags
-     * @param  \Vyuldashev\LaravelOpenApi\Factories\SecuritySchemeFactory|string|null  $security
+     * @param  \NovaEdge\LaravelOpenApi\Factories\SecuritySchemeFactory|string|null  $security
      * @param  string|null  $method
      *
      * @throws InvalidArgumentException

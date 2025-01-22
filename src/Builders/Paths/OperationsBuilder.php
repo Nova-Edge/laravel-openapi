@@ -1,21 +1,21 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Paths;
+namespace NovaEdge\LaravelOpenApi\Builders\Paths;
 
 use GoldSpecDigital\ObjectOrientedOAS\Exceptions\InvalidArgumentException;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Operation;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use phpDocumentor\Reflection\DocBlock;
-use Vyuldashev\LaravelOpenApi\Attributes\Operation as OperationAttribute;
-use Vyuldashev\LaravelOpenApi\Builders\ExtensionsBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\CallbacksBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\ParametersBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\RequestBodyBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\ResponsesBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\SecurityBuilder;
-use Vyuldashev\LaravelOpenApi\Factories\ServerFactory;
-use Vyuldashev\LaravelOpenApi\RouteInformation;
+use NovaEdge\LaravelOpenApi\Attributes\Operation as OperationAttribute;
+use NovaEdge\LaravelOpenApi\Builders\ExtensionsBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Paths\Operation\CallbacksBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Paths\Operation\ParametersBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Paths\Operation\RequestBodyBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Paths\Operation\ResponsesBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Paths\Operation\SecurityBuilder;
+use NovaEdge\LaravelOpenApi\Factories\ServerFactory;
+use NovaEdge\LaravelOpenApi\RouteInformation;
 
 class OperationsBuilder
 {

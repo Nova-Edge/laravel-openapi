@@ -3,7 +3,7 @@
 namespace DummyNamespace;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\SecurityScheme;
-use Vyuldashev\LaravelOpenApi\Factories\SecuritySchemeFactory;
+use NovaEdge\LaravelOpenApi\Factories\SecuritySchemeFactory;
 
 class DummyClass extends SecuritySchemeFactory
 {

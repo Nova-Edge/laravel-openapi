@@ -8,7 +8,7 @@ use GoldSpecDigital\ObjectOrientedOAS\Objects\PathItem;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\RequestBody;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Response;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Schema;
-use Vyuldashev\LaravelOpenApi\Factories\CallbackFactory;
+use NovaEdge\LaravelOpenApi\Factories\CallbackFactory;
 
 class DummyClass extends CallbackFactory
 {

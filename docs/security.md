@@ -21,7 +21,7 @@ After you generate a security scheme, it will be declared in the `securityScheme
 ## Operation level example
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 #[OpenApi\PathItem]
 class UserController extends Controller

@@ -1,9 +1,9 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Builders\Components;
+namespace NovaEdge\LaravelOpenApi\Builders\Components;
 
-use Vyuldashev\LaravelOpenApi\Factories\SecuritySchemeFactory;
-use Vyuldashev\LaravelOpenApi\Generator;
+use NovaEdge\LaravelOpenApi\Factories\SecuritySchemeFactory;
+use NovaEdge\LaravelOpenApi\Generator;
 
 class SecuritySchemesBuilder extends Builder
 {

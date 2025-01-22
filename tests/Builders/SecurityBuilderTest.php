@@ -1,6 +1,6 @@
 <?php
 
-namespace Vyuldashev\LaravelOpenApi\Tests\Builders;
+namespace NovaEdge\LaravelOpenApi\Tests\Builders;
 
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Components;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\Operation;
@@ -9,12 +9,12 @@ use GoldSpecDigital\ObjectOrientedOAS\Objects\SecurityRequirement;
 use GoldSpecDigital\ObjectOrientedOAS\Objects\SecurityScheme;
 use GoldSpecDigital\ObjectOrientedOAS\OpenApi;
 use phpDocumentor\Reflection\DocBlock;
-use Vyuldashev\LaravelOpenApi\Attributes\Operation as AttributesOperation;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\Operation\SecurityBuilder;
-use Vyuldashev\LaravelOpenApi\Builders\Paths\OperationsBuilder;
-use Vyuldashev\LaravelOpenApi\Factories\SecuritySchemeFactory;
-use Vyuldashev\LaravelOpenApi\RouteInformation;
-use Vyuldashev\LaravelOpenApi\Tests\TestCase;
+use NovaEdge\LaravelOpenApi\Attributes\Operation as AttributesOperation;
+use NovaEdge\LaravelOpenApi\Builders\Paths\Operation\SecurityBuilder;
+use NovaEdge\LaravelOpenApi\Builders\Paths\OperationsBuilder;
+use NovaEdge\LaravelOpenApi\Factories\SecuritySchemeFactory;
+use NovaEdge\LaravelOpenApi\RouteInformation;
+use NovaEdge\LaravelOpenApi\Tests\TestCase;
 
 class SecurityBuilderTest extends TestCase
 {

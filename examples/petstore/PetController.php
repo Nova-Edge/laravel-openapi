@@ -4,7 +4,7 @@ namespace Examples\Petstore;
 
 use Examples\Petstore\OpenApi\Parameters\ListPetsParameters;
 use Examples\Petstore\OpenApi\Responses\ErrorValidationResponse;
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 #[OpenApi\PathItem]
 class PetController

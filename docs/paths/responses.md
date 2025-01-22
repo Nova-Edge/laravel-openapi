@@ -21,7 +21,7 @@ class ListUsersResponse extends ResponseFactory
 Finally, add `Response` attribute with factory name to your route:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller
 {
@@ -39,11 +39,11 @@ class UserController extends Controller
 
 ## Reusable responses
 
-Responses can be reusable. Adding `Vyuldashev\LaravelOpenApi\Contracts\Reusable` will indicate that it should be added to `components/responses` section and reference will be used instead of response definition.
+Responses can be reusable. Adding `NovaEdge\LaravelOpenApi\Contracts\Reusable` will indicate that it should be added to `components/responses` section and reference will be used instead of response definition.
 This can be handy for validation errors object:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Contracts\Reusable;
+use NovaEdge\LaravelOpenApi\Contracts\Reusable;
 
 class ErrorValidationResponse extends ResponseFactory implements Reusable
 {
@@ -70,7 +70,7 @@ class ErrorValidationResponse extends ResponseFactory implements Reusable
 And in controller's method:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller
 {
@@ -95,7 +95,7 @@ Even if the schema defines a status code, you **must** supply the status code in
 Example:
 
 ```php
-use Vyuldashev\LaravelOpenApi\Attributes as OpenApi;
+use NovaEdge\LaravelOpenApi\Attributes as OpenApi;
 
 class UserController extends Controller
 {

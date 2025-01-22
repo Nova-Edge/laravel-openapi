@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vyuldashev\LaravelOpenApi;
+namespace NovaEdge\LaravelOpenApi;
 
 use Attribute;
 use Illuminate\Routing\Route;
@@ -83,7 +83,7 @@ class RouteInformation
             $actionAttributes = collect($reflectionMethod->getAttributes())
                 ->map(fn (ReflectionAttribute $attribute) => $attribute->newInstance());
 
-            $containsControllerLevelParamter = $actionAttributes->contains(fn ($value) => $value instanceof \Vyuldashev\LaravelOpenApi\Attributes\Parameters);
+            $containsControllerLevelParamter = $actionAttributes->contains(fn ($value) => $value instanceof \NovaEdge\LaravelOpenApi\Attributes\Parameters);
 
             $instance->domain = $route->domain();
             $instance->method = $method;

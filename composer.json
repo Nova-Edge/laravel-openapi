@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vyuldashev\\LaravelOpenApi\\": "src/"
+            "NovaEdge\\LaravelOpenApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vyuldashev\\LaravelOpenApi\\Tests\\": "tests/",
+            "NovaEdge\\LaravelOpenApi\\Tests\\": "tests/",
             "Examples\\Petstore\\": "examples/petstore/"
         }
     },
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vyuldashev\\LaravelOpenApi\\OpenApiServiceProvider"
+                "NovaEdge\\LaravelOpenApi\\OpenApiServiceProvider"
             ]
         }
     },
