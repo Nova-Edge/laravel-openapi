@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://github.com/Nova-Edge/laravel-openapi/compare/v2.0.1...v2.1.0) (2025-02-03)
+
+
+### Features
+
+* move security requirements to a dedicated attribute ([#34](https://github.com/Nova-Edge/laravel-openapi/issues/34)) ([033c354](https://github.com/Nova-Edge/laravel-openapi/commit/033c354c47cab100d0bbb0354d4f0709e0484379))
+
+
+### Bug Fixes
+
+* deprecation warning with Str::lower() ([#36](https://github.com/Nova-Edge/laravel-openapi/issues/36)) ([a92b4ce](https://github.com/Nova-Edge/laravel-openapi/commit/a92b4ce171daa721c94da23e42bf02c4f5896951))
+
 ## [2.0.1](https://github.com/TartanLeGrand/laravel-openapi/compare/v2.0.0...v2.0.1) (2024-12-09)
 
 
