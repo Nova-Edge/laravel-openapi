@@ -7,7 +7,7 @@
 
 ## Documentation
 
-You'll find the documentation on https://tartanlegrand.github.io/laravel-openapi.
+You'll find the documentation on https://nova-edge.github.io/laravel-openapi.
 
 ## License
 
@@ -19,9 +19,9 @@ We invite you to join our community and contribute to the project. Whether you'r
 
 ### How to Contribute
 
-1. **Report a Bug**: Open a [GitHub issue](https://github.com/TartanLeGrand/laravel-openapi/issues) to report bugs or propose improvements.
+1. **Report a Bug**: Open a [GitHub issue](https://github.com/Nova-Edge/laravel-openapi/issues) to report bugs or propose improvements.
 2. **Submit Code**: For development details, see the [CONTRIBUTING](CONTRIBUTING.md) guide. For major changes, including CLI interface changes, please open an issue first to discuss what you would like to change.
-3. **Documentation**: Help us improve the documentation on [our site](https://tartanlegrand.github.io/laravel-openapi).
+3. **Documentation**: Help us improve the documentation on [our site](https://nova-edge.github.io/laravel-openapi).
 
 Thanks to everyone who has contributed, including bug reports, code, feedback, and suggestions!
 
@@ -29,7 +29,7 @@ Thanks to everyone who has contributed, including bug reports, code, feedback, a
 
 A big thank you to all who have contributed to this project. Here are some of our most active contributors:
 
-<a href="https://github.com/tartanlegrand/laravel-openapi/graphs/contributors">
+<a href="https://github.com/Nova-Edge/laravel-openapi/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=tartanlegrand/laravel-openapi" />
 </a>
 
@@ -37,6 +37,6 @@ If you would like to see your name here, start contributing today!
 
 ## Join Us
 
-Connect with other users and contributors on our [discussion forum](https://github.com/TartanLeGrand/laravel-openapi/discussions) and join the conversation around the project.
+Connect with other users and contributors on our [discussion forum](https://github.com/Nova-Edge/laravel-openapi/discussions) and join the conversation around the project.
 
 We ❤️ contributions big or small. Thank you for being part of our community and helping improve this open source project.
