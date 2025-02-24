@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/Nova-Edge/laravel-openapi/compare/v2.1.0...v2.1.1) (2025-02-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** Support PHP 8.4 and Laravel 12 ([#39](https://github.com/Nova-Edge/laravel-openapi/issues/39)) ([c1eae1d](https://github.com/Nova-Edge/laravel-openapi/commit/c1eae1d680b1f36579f8a3c416dd6adf7883f3f9))
+
 ## [2.1.0](https://github.com/Nova-Edge/laravel-openapi/compare/v2.0.1...v2.1.0) (2025-02-03)
 
 
