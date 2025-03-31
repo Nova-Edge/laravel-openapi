@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/Nova-Edge/laravel-openapi/compare/v2.1.1...v2.1.2) (2025-03-31)
+
+
+### Bug Fixes
+
+* check if 'actionDocBlock' is null  ([#43](https://github.com/Nova-Edge/laravel-openapi/issues/43)) ([033d21c](https://github.com/Nova-Edge/laravel-openapi/commit/033d21ccb221f45ee55d8ec0599d64bb28fff8f0))
+
 ## [2.1.1](https://github.com/Nova-Edge/laravel-openapi/compare/v2.1.0...v2.1.1) (2025-02-24)
 
 
